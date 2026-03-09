@@ -58,6 +58,8 @@ An interactive, client-side job application form built with **HTML**, **CSS**, a
    - Open `n.html` for the enhanced version, or `index.html` for the basic version.
 
 ## Screenshots
+<img width="1110" height="628" alt="image" src="https://github.com/user-attachments/assets/b66a6365-bf2b-4527-aad3-ea7cefeca7fd" />
+
 
 > _Add screenshots of the form here._
 
