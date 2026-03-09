@@ -45,9 +45,6 @@ An interactive, client-side job application form built with **HTML**, **CSS**, a
 ├── index.html   # Basic version of the form
 ├── idx.css      # Styles for basic version
 ├── idx.js       # Validation logic for basic version
-├── n.html       # Enhanced version with progress bar, icons & strength meter
-├── n1.css       # Styles for enhanced version
-├── n1.js        # Advanced validation & interactivity for enhanced version
 └── README.md
 ```
 
