@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="idx.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application form</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Job Application form</h2>
+        <form>
+        <div class="main">
+                <div class="name">
+                    <label>Full Name</label>   
+                    <input required type="text" name="formname" id =       "valid-name" placeholder="Enter your Name">
+                    <div class="validn">your name is invalid</div>
+                </div>
+                <div class="E-mail">
+                    <label>Email Address</label>   
+                    <input required type="text" name="formemail" id =       "valid-email" placeholder="Enter your Email">
+                     <div class="validm">your provided is invalid</div>
+                </div>
+                <div class="phone">
+                    <label>Phone Number</label>   
+                    <input required type="text" name="formnumber" id =    "valid-number" placeholder="Enter your Phone Number">
+                    <div class="validp">your provided phone number is  invalid</div>
+                </div>
+                <div class="Password">
+                    <label>Password</label>   
+                    <input required type="password" name="formpass" id = "valid-pass" placeholder="Enter your  password">
+                     <div class="validpa">your provided phone number is  invalid</div>
+                </div>
+                <div class="Repeat-Password">
+                    <label> Repeat Password</label>   
+                    <input required type="password" name="formrepass" id =    "valid-repass" placeholder="Enter your  password Again">
+                     <div class="validpas">your provided password and repeated-password is not same</div>
+                </div>
+                <div class="catagory">
+                    <label>Job-position</label> 
+                    <select required >
+                        <option value="position">choose your position</option>
+                        <option value="Fronted">Frontend Development</option>
+                        <option value="Backernd">Backend Development</option>
+                        <option value="stack">Full stack Development</option>
+                    </select>
+                </div>
+                <div class="Experience">
+                    <label>Job Experience</label>   
+                    <input required type="number" name="formpex" id ="valid-ex" placeholder="Enter your  password">
+                </div>
+                <div class="flexibility">
+                    <label>Job type</label> 
+                    <input type="radio" name = "jobtype" value="full time">Full time
+                    <input type="radio" name = "jobtype" value="part time">part time
+                    <input type="radio" name = "jobtype" value="Remote time">Remote
+                </div>
+                <div class="skills">
+                    <label>Your skill</label> 
+                    <input type="checkbox" name = "skills" value="HTML">HTML
+                    <input type="checkbox" name = "skills" value="CSS ">CSS
+                    <input type="checkbox" name = "skills" value="JAVA SCRIPT">JS
+                    <input type="checkbox" name = "skills" value="C">C
+                    <input type="checkbox" name = "skills" value="C++ ">C++
+                    <input type="checkbox" name = "skills" value="JAVA ">Java
+                    <input type="checkbox" name = "skills" value="py">python
+                    <input type="checkbox" name = "skills" value="re ">React
+                    <input type="checkbox" name = "skills" value="jango">Jango
+                </div>
+                <div class="social">
+                    <label>Your portfolio link</label>
+                    <input type = "url" placeholder="">
+                </div>
+                <div class="DOB">
+                    <label>Your BirthDate</label>
+                    <input type = "date" placeholder="">
+                </div>
+                <div class="Expected-Salary">
+                    <label>Expected Salary</label>
+                    <input type = "range" min = "10" max = "100" value="0">
+                    <label>value : <span id ="chng">0</span> k</label>
+                </div>
+                <div class="company">
+                    <label>Why this company choose you</label>
+                    <textarea rows="5" min="20" max="100"></textarea>
+                </div>
+                <div class="btn">
+                    <button type="button" id = "btn1">SUBMIT</button>
+                    <button type="button" id = "btn2">RESET</button>
+                </div>
+                
+                </div>
+            </form>
+         </div> 
+         <div class="last-msg">Your form is submited.Thank you for your response</span></div>
+         <script src = "idx.js"></script>
+    </body>
+</html>

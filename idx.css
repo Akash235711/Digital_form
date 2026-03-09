@@ -1,0 +1,107 @@
+body {
+    transform: scale(0.7);
+    background: linear-gradient(to right, rgba(0, 110, 255, 0.622), rgb(122, 44, 177)
+    );
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-color: lch(95.41% 13 83.95 / 0.927);
+    box-shadow:  5px 8px 15px rgba(0, 0, 0, 0.2);;
+}
+h2{
+    text-align: center;
+}
+.name,.E-mail,.phone,.Password,.Repeat-Password,.catagory,.Experience,.flexibility,.skills,.social,.DOB,.Expected-Salary,.company,.job-position{
+    margin: 10px;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333333;
+    font-family: Arial, sans-serif;
+}
+.btn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#btn1{
+    cursor: pointer;
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    background:linear-gradient(to right,rgb(0, 255, 229),rgb(0, 128, 115));
+}
+#btn2{
+    cursor: pointer;
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    background:linear-gradient(to right,rgba(255, 247, 0, 0.777),rgb(128, 13, 0));
+}
+
+
+.name input{
+    width: 80%;
+    padding: 12px 15px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 15px;
+    color: #333333;
+    outline: none;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.name input:focus {
+    border-color: #7c5cbf;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(124, 92, 191, 0.3);
+}
+.name input:valid,.E-mail input:valid,.phone input:valid,.Password input:valid{
+    border-color: #4CAF50;
+}
+.name input:hover {
+    border-color: #9b89c4;
+}
+.E-mail input,.phone input,.Password input,.Repeat-Password input,.catagory input,.Experience-input,.flexibility ,.skills ,.social input,.DOB input,.Expected-Salary input,.company input{
+    gap:8px;
+    width: 80%;
+    padding: 12px 15px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 15px;
+    color: #333333;
+    outline: none;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.E-mail input:valid,.phone input:valid{
+    border-color: #4CAF50;
+}
+.E-mail input:hover,.phone input:hover,.Password input:hover,.Repeat-Password input:hover,.catagory input:hover,.company input:hover,.DOB input:hover,.flexibility input:hover,.skills input:hover,.Experience input:hover,.social input:hover,.Expected-Salary input:hover{
+    border-color: #9b89c4;
+}
+.validn,.validm,.validp,.validpa,.validpas{
+    display: none;
+}
+
+.last-msg {
+    display: none;
+    text-align: center;
+    padding: 100px;
+    font-size: 50px;
+    font-weight: 700;
+    color: rgba(0, 128, 70, 0.691);
+    background-color: antiquewhite;
+    font-family: Arial, sans-serif;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
